@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardviewMascota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="@dimen/card_view_vertical_margin"
+    android:layout_marginRight="@dimen/card_view_vertical_margin">
+
+    <LinearLayout
+        android:id="@+id/layoutCV_Vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgCVPet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cat2"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:id="@+id/layoutCV_Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgBtnCVLike"
+                android:layout_width="@dimen/imageButton_dimen"
+                android:layout_height="@dimen/imageButton_dimen"
+                android:src="@drawable/bone"
+                android:background="@color/colorWhite"
+                />
+
+            <TextView
+                android:id="@+id/textViewCVName"
+                android:layout_width="@dimen/textView_name_width"
+                android:layout_height="@dimen/textView_name_height"
+                android:text="@string/card_view_text_name"
+                android:textSize="@dimen/textViewSize"
+                android:textStyle="bold"
+                android:paddingTop="13dp"/>
+
+            <TextView
+                android:id="@+id/textViewCVContador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textSize="@dimen/textViewSize"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imgCVRate"
+                android:layout_width="@dimen/imageView_width"
+                android:layout_height="@dimen/imageView_height"
+                android:src="@drawable/bone2"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

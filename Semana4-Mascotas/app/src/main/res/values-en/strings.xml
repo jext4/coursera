@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="menu_fav">Favourite</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_about">About</string>
+    <string name="txtNameContact">Name</string>
+    <string name="txtMailContact">Email</string>
+    <string name="txtMailSubject">Subject</string>
+    <string name="txtMailMessage">Message</string>
+    <string name="btnSendMessage">Sent message</string>
+    <string name="message_sent">Message sent!</string>
+    <string name="message_sending">Sending message</string>
+    <string name="message_error">Error sending message</string>
+    <string name="please_wait">Please, wait.</string>
+</resources>

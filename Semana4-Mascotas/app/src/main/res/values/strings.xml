@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="menu_fav">Fav</string>
+    <string name="menu_contact">Contacto</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="fab_add" translatable="false">fab_add</string>
+    <string name="txtNameContact">Nombre</string>
+    <string name="txtMailContact">Email</string>
+    <string name="txtMailSubject">Asunto</string>
+    <string name="txtMailMessage">Mensaje</string>
+    <string name="btnSendMessage">Enviar mensaje</string>
+    <string name="developer_name" translatable="false">JM</string>
+
+    <string name="message_sent">Mensaje enviado!</string>
+    <string name="message_sending">Enviando mensaje</string>
+    <string name="message_error">Error de envío</string>
+    <string name="please_wait">Por favor espera...</string>
+    <string name="card_view_text_name">Example</string>
+    <string name="text_cardViewMyPet">Example</string>
+</resources>

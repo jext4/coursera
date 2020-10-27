@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuFavourites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/menu_fav"
+        android:orderInCategory="102"
+        app:showAsAction="always"
+        android:layout_gravity="end"
+        android:icon="@drawable/star">
+    </item>
+
+    <item
+        android:id="@+id/menuContact"
+        android:title="@string/menu_contact">
+    </item>
+
+    <item
+        android:id="@+id/menuAbout"
+        android:title="@string/menu_about">
+    </item>
+</menu>
