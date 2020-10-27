@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Curso3-Mascotas</string>
+    <string name="menu_mascotas">menu_mascotas</string>
+    <string name="action_settings">action_settings</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Cardview-->
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ivFotoMascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dog" />
+
+        <ImageButton
+            android:id="@+id/imBotonRate"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/ivFotoMascota"
+            android:src="@drawable/hueso_blanco" />
+
+        <TextView
+            android:id="@+id/tvNombreMascota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivFotoMascota"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/imBotonRate"
+            android:gravity="center"
+            android:text="Nombre"
+            android:textSize="25sp" />
+
+        <ImageButton
+            android:id="@+id/imBotorRateTotal"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/ivFotoMascota"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="23dp"
+            android:src="@drawable/hueso_amarillo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivFotoMascota"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="96dp"
+            android:text="5"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
